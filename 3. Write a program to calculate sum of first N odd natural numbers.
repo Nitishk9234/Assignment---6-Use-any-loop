@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+     int i,N,S;
+     printf("Enter a N value :");
+     scanf("%d",&N);
+    for(i=1,S=0;i<=N;i++)
+        S=S+(i*2-1);
+        printf("sum of first N odd natural numbers %d",S);
+    getch();
+}
