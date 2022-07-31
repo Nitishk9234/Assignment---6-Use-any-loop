@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <conio.h>
-
 int main()
 {
-     int count=0,n;
+     //I use long long because long long take 18
+     long long count=0,n;
      printf("Enter a N value :");
-     scanf("%d",&n);
+     scanf("%lld",&n);
+     printf("%lld",n);
     while(n!=0)
     {
         n=n/10;
         count++;
     }
-    printf("Number of digits is %d",count);
+    printf("Number of digit is %d",count);
 
     getch();
 }
