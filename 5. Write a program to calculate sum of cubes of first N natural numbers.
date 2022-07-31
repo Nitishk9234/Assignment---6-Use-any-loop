@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+     int i,N,S;
+     printf("Enter a N value :");
+     scanf("%d",&N);
+    for(i=1,S=0;i<=N;i++)
+        {
+            S=S+(i*i*i);
+        }
+        printf("sum of cube first N natural numbers %d",S);
+
+    getch();
+}
