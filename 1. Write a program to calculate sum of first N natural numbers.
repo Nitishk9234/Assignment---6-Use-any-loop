@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+     int i,N,S;
+     printf("Enter a N value :");
+     scanf("%d",&N);
+    for(i=1,S=0;i<=N;i++)
+        S=S+i;
+        printf("sum of N natural number %d",S);
+    getch();
+}
